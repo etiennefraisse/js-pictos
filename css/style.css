@@ -1,0 +1,13 @@
+@font-face {
+font-family: Agipo;
+src: url(../font/agipo_regular.otf);
+}
+
+body
+{
+	text-align: center;
+	font-family: "Agipo";
+	font-size: 48px;
+	line-height: 64px;
+	color: red;
+}
