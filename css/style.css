@@ -11,3 +11,11 @@ body
 	line-height: 64px;
 	color: red;
 }
+.underlined
+{
+	width:0.9em; 
+	height:inherit;
+	border-bottom: solid 1px #f00;
+	padding-bottom: 1px;
+	vertical-align: text-bottom;
+}
