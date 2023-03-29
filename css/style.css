@@ -12,6 +12,10 @@ body
 	margin: 0px 100px 0px 100px;
 	/* color: red; */
 }
+h2
+{
+	color:#fc8d51;
+}
 .underlined
 {
 	width:0.9em; 
