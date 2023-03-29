@@ -1,35 +1,8 @@
-/* .borders:before {
-  content: "";
-  position: fixed;
-  inset: 3em;
-  background: 
-   repeating-radial-gradient(#000 0 0.0001%,#fff 0 0.0002%) 
-    60% 60%/3000px 3000px,
-   repeating-conic-gradient(#000 0 0.0001%,#fff 0 0.0002%) 
-    40% 40%/4000px 3000px;
-  background-blend-mode: difference;
-  filter: blur(1px) contrast(100) brightness(40);
-  mix-blend-mode: lighten;
-    height: 5px;
-} */
 .borders {
-	 height: 15px;
+	 height: 10px;
 	 background-image: url('svg/border-orange.svg');
 	background-repeat:repeat-x;
 	background-position: bottom;
 	background-size: contain;
 	
-}
-.borders:after {
-     background-color:inherit;
-  /* margin: 0; */
-	/* border: 8px solid; */
-  /* width: 100%; */
-  /* background-color: #fa6413; */
-  /* border-color: #fc8d51; */
-  /* border-bottom: 5px; */
-
-}
-.borders:before {
-     background-color:#fff;
 }
