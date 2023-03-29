@@ -8,14 +8,30 @@ body
 	text-align: center;
 	font-family: "Agipo";
 	font-size: 48px;
-	line-height: 64px;
-	color: red;
+	/* line-height: 64px; */
+	margin: 0px 100px 0px 100px;
+	/* color: red; */
 }
 .underlined
 {
 	width:0.9em; 
 	height:inherit;
-	border-bottom: solid 1px #f00;
-	padding-bottom: 1px;
+	border-bottom: solid 1px #000;
 	vertical-align: text-bottom;
+	overflow:5px;
+}
+.title-banner
+{
+	font-size: 3em;
+
+	text-align: left;
+}
+.orange{
+	background-color: #fc8d51;
+}
+.bleu{
+	background-color: #51c0fc;
+}
+svg{
+	color:#fc8d51;
 }
